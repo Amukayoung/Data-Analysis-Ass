@@ -16,7 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from rest_framework.urlpatterns import format_suffix_patterns
+from danalysis import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path("admin/", admin.site.urls),
+    path("device/", views.DeviceDetailsList),
+    path("device/<str:id>", views.DeviceDetails),
 ]
+
+urlpatterns = format_suffix_patterns(urlpatterns)
