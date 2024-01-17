@@ -2,7 +2,7 @@ import json
 from datetime import datetime
 from django.db import transaction
 from questions.models import Chapter, Question, QuestionFeedback
-from .models import Device
+from ..models import Device
 
 
 def processQuestionData(filePath):
@@ -27,20 +27,23 @@ def processQuestionData(filePath):
                             chapter_number = key
                             chapter = Chapter.objects.get(name=chapter_number)
 
-                            question_key = list(value.keys())[0]
-                            question_data = value[question_key]
+                            chapter_keys = list(value.keys())
+                            for chapter_key in chapter_keys:
+                                print("chapter_keys", chapter_key)
+                                question_name = chapter_key
+                                question_feedback = value[chapter_key]
+                                question, _ = Question.objects.get_or_create(
+                                    chapterId=chapter, name=question_name
+                                )
 
-                            question = Question(chapterId=chapter, name=question_key)
-                            question.save()
-
-                            question_feedback = QuestionFeedback(
-                                deviceId=device,
-                                questionId=question,
-                                feedback=question_data.get("wasThisHelpful", ""),
-                                createdAt=created_at,
-                                updatedAt=updated_at,
-                            )
-                            question_feedback.save()
+                                question_feedback = QuestionFeedback(
+                                    deviceId=device,
+                                    questionId=question,
+                                    feedback=question_feedback,
+                                    createdAt=created_at,
+                                    updatedAt=updated_at,
+                                )
+                                question_feedback.save()
 
             return "Chapter data from JSON file has been saved successfully!"
 

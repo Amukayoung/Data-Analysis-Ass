@@ -1,5 +1,5 @@
 from django.core.management.base import BaseCommand
-from danalysis.chapterScript import processChapterData
+from danalysis.Scripts.chapterScript import processChapterData
 
 
 class Command(BaseCommand):

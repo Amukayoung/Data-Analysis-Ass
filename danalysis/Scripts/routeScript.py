@@ -1,5 +1,5 @@
 import json
-from .models import Route
+from ..models import Route
 
 
 def processRouteData(filePath):

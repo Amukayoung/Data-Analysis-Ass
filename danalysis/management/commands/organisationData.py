@@ -1,5 +1,5 @@
 from django.core.management.base import BaseCommand
-from danalysis.organisationScript import processOrganisationData
+from danalysis.Scripts.organisationScript import processOrganisationData
 
 
 class Command(BaseCommand):

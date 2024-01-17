@@ -1,5 +1,5 @@
 import json
-from .models import Device
+from ..models import Device
 
 
 def processDeviceData(filePath):

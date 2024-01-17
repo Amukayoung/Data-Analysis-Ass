@@ -1,5 +1,5 @@
 from django.core.management.base import BaseCommand
-from danalysis.deviceScript import processDeviceData
+from danalysis.Scripts.deviceScript import processDeviceData
 
 
 class Command(BaseCommand):

@@ -1,5 +1,5 @@
 from django.core.management.base import BaseCommand
-from danalysis.sectorScript import processSectorData
+from danalysis.Scripts.sectorScript import processSectorData
 
 
 class Command(BaseCommand):

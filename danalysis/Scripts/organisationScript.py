@@ -1,5 +1,5 @@
 import json
-from .models import Organisation, Sector
+from ..models import Organisation, Sector
 
 
 def processOrganisationData(filePath):

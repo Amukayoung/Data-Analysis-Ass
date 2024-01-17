@@ -1,5 +1,5 @@
 from django.core.management.base import BaseCommand
-from danalysis.routeScript import processRouteData
+from danalysis.Scripts.routeScript import processRouteData
 
 
 class Command(BaseCommand):

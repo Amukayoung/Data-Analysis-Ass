@@ -1,5 +1,5 @@
 import json
-from .models import Sector
+from ..models import Sector
 
 
 def processSectorData(filePath):

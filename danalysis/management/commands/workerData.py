@@ -1,5 +1,5 @@
 from django.core.management.base import BaseCommand
-from danalysis.workerScript import processWorkerData
+from danalysis.Scripts.workerScript import processWorkerData
 
 
 class Command(BaseCommand):

@@ -1,5 +1,5 @@
 from django.core.management.base import BaseCommand
-from danalysis.inlineQuestionScript import processInlineQuestionData
+from danalysis.Scripts.inlineQuestionScript import processInlineQuestionData
 
 
 class Command(BaseCommand):

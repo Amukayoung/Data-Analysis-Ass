@@ -1,7 +1,7 @@
 import json
 from datetime import datetime
 from django.db import transaction
-from .models import Device, Route, Sector, Organisation, Worker
+from ..models import Device, Route, Sector, Organisation, Worker
 
 
 def processWorkerData(filePath):
