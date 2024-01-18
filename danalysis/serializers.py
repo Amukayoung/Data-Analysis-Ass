@@ -1,4 +1,5 @@
 from rest_framework import serializers
+from django.contrib.auth.models import User
 from .models import Device, Route, Sector, Organisation, Worker
 from questions.models import (
     InlineQuestion,
@@ -7,6 +8,12 @@ from questions.models import (
     Question,
     QuestionFeedback,
 )
+
+
+class UserSerializer(serializers.ModelSerializer):
+    class Meta(object):
+        model = User
+        fields = ["id", "username", "password", "email"]
 
 
 class DeviceSerializers(serializers.ModelSerializer):
