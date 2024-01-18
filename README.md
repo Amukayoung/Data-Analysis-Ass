@@ -13,9 +13,9 @@ This is backend application design in Python/Django. The application includes sc
 
 The database use is SQlite. find attached the database structure url:https://dbdiagram.io/d/Data-Analysis-Ass-659cf1c2ac844320ae83b45e
 
-![Screen Shot](./images/dbdesign1.png)
-![Screen Shot](./images/dbdesign2.png)
-![Screen Shot](./images/dbdesign3.png)
+![Screen Shot](./Images/dbdesign1.png)
+![Screen Shot](./Images/dbdesign2.png)
+![Screen Shot](./Images/dbdesign3.png)
 ![Screen Shot](./images/dbdesign4.png)
 
 ## Api Documentation
@@ -23,10 +23,10 @@ The database use is SQlite. find attached the database structure url:https://dbd
 Find attached at API postman Doc url: https://documenter.getpostman.com/view/21029286/2s9YsRdVKK
 
 Some of the screenshots for the postman API test
-![Screen Shot](./images/ActiveUsersLastYearGroupedByMonth.png)
-![Screen Shot](./images/TopAnsweredQuestions.png)
-![Screen Shot](./images/TopRoutesLastYear.png)
-![Screen Shot](./images/login.png)
+![Screen Shot](./Images/ActiveUsersLastYearGroupedByMonth.png)
+![Screen Shot](./Images/TopAnsweredQuestions.png)
+![Screen Shot](./Images/TopRoutesLastYear.png)
+![Screen Shot](./Images/login.png)
 
 ## Getting Started
 
