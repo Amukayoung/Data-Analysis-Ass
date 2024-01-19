@@ -2,7 +2,7 @@
 
 ## Task
 
-This is backend application design in Python/Django. The application includes scripts for extract raw disorganise data from a Json file and populating it to the database. This data was then visualised data in a frobtend Angular application url:https://github.com/Amukayoung/Data-Analysis-Frontend
+This is a backend application design in Python/Django. The application includes scripts for extracting raw disorganize data from a JSON file and populating it to the database. This data was then visualized data in a frontend Angular application url:https://github.com/Amukayoung/Data-Analysis-Frontend
 
 ## Technology
 
@@ -11,18 +11,18 @@ This is backend application design in Python/Django. The application includes sc
 
 ## Database
 
-The database use is SQlite. find attached the database structure url:https://dbdiagram.io/d/Data-Analysis-Ass-659cf1c2ac844320ae83b45e
+The database used is SQLite. find attached the database structure url:https://dbdiagram.io/d/Data-Analysis-Ass-659cf1c2ac844320ae83b45e
 
 ![Screen Shot](./Images/dbdesign1.png)
 ![Screen Shot](./Images/dbdesign2.png)
 ![Screen Shot](./Images/dbdesign3.png)
 ![Screen Shot](./images/dbdesign4.png)
 
-## Api Documentation
+## API Documentation
 
-Find attached at API postman Doc url: https://documenter.getpostman.com/view/21029286/2s9YsRdVKK
+Find attached at API postman Doc URL: https://documenter.getpostman.com/view/21029286/2s9YsRdVKK
 
-Some of the screenshots for the postman API test
+Some of the screenshots for the Postman API test
 ![Screen Shot](./Images/ActiveUsersLastYearGroupedByMonth.png)
 ![Screen Shot](./Images/TopAnsweredQuestions.png)
 ![Screen Shot](./Images/TopRoutesLastYear.png)
@@ -55,7 +55,6 @@ Start the Django development server:
 
 python manage.py runserver
 Visit http://127.0.0.1:8000/ in your web browser to view the application.
+Enjoy the Apis...
 
-## Run data import scripts
 
-Run the following scripts inorder
