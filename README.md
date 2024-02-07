@@ -2,7 +2,7 @@
 
 ## Task
 
-This is a backend application design in Python/Django. The application includes scripts for extracting raw disorganize data from a JSON file and populating it to the database. This data was then visualized data in a frontend Angular application url:https://github.com/Amukayoung/Data-Analysis-Frontend
+This is a backend application design in Python/Django. The application includes scripts for extracting raw disorganized data from a JSON file and populating it to the database. This data was then visualized data in a frontend Angular application url:https://github.com/Amukayoung/Data-Analysis-Frontend
 
 ## Technology
 
@@ -36,14 +36,14 @@ These instructions will guide you on how to set up and run the project on your l
 
 Before you begin, ensure you have the following installed:
 
-Python (version x.x.x)
+Python (version 3.12.0)
 pip
 
 ## Installing Dependencies
 
 Navigate to the project root and install the required dependencies:
 
-pip install -r requirements.txt
+pip install 
 
 ## Database Setup
 
